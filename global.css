@@ -170,6 +170,11 @@ button {
   font-size: 16px;
   font-weight: 700;
   border-radius: 25px;
+  transition: transform ease-out 100ms;
+}
+
+button:hover {
+  transform: scale(1.05);
 }
 
 .educ-sub-detail {
